@@ -13,6 +13,6 @@ async def root():
 
 @app.post("/signup")
 async def signup(Fname:str , Lname:str , phone:str):
-    await addUser(Fname,Lname,phone)
+    addUser(Fname,Lname,phone)
 
     
